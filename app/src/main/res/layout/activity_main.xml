@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="MissingConstraints">
+
+
+        <TableRow
+            android:id="@+id/kartlar"
+            android:layout_width="fill_parent"
+            android:layout_height="226dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+            <ImageView
+                android:id="@+id/kart_1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="4dp"
+                android:layout_weight="1"
+                android:src="@drawable/bos" />
+
+            <ImageView
+                android:id="@+id/kart_2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="4dp"
+                android:layout_weight="1"
+                android:src="@drawable/bos" />
+
+            <ImageView
+                android:id="@+id/kart_3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="4dp"
+                android:layout_weight="1"
+                android:src="@drawable/bos" />
+
+
+            <ImageView
+                android:id="@+id/kart_4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="4dp"
+                android:layout_weight="1"
+                android:src="@drawable/bos" />
+
+            <ImageView
+                android:id="@+id/kart_5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="4dp"
+                android:layout_weight="1"
+                android:src="@drawable/bos" />
+
+            <ImageView
+                android:id="@+id/kart_6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="4dp"
+                android:layout_weight="1"
+                android:src="@drawable/bos" />
+
+            <ImageView
+                android:id="@+id/kart_7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="4dp"
+                android:layout_weight="1"
+                android:src="@drawable/bos" />
+
+
+        </TableRow>
+
+    </TableLayout>
+    <ImageView
+        android:id="@+id/oyuncu3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/bos"
+        tools:ignore="MissingConstraints" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="0dp">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/oyuncu2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/bos_yan"
+                tools:ignore="MissingConstraints" />
+
+            <ImageView
+                android:id="@+id/arka"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/bos"
+                tools:ignore="MissingConstraints" />
+
+            <ImageView
+                android:id="@+id/oyuncu1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/bos_yan"
+                tools:ignore="MissingConstraints" />
+
+
+        </LinearLayout>
+        >
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
